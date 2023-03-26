@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  margin: 50px 50px;
+  background-color: skyblue;
+  padding: 20px;
+  width: 70%;
+  height: 20%;
+}
+.form div {
+  margin: 0;
+}
+.page-one {
+  display: flex;
+
+  flex-direction: column;
+}

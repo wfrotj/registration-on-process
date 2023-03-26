@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: whitesmoke;
+  color: black;
+}
+header {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+}
+.nav-menu img {
+  width: 50px;
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 401px) and (max-width: 960px) {
+  header {
+    background-color: red;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+  }
+  .nav-menu li {
+    display: flex;
+  }
+}
+
+/* Desktop Devices */
+
+@media screen and (min-width: 961px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-img-container {
+    width: 30%;
+  }
+  .hero-img-container img {
+    width: 100%;
+  }
+  .hero-content p {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .hero-content {
+    text-align: 20px;
+    text-transform: uppercase;
+  }
+}
